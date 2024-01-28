@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".donatebooks">
+
+    <ImageView
+        android:id="@+id/booksimage"
+        android:layout_width="match_parent"
+        android:layout_height="372dp"
+        android:text="@string/booksimage" />
+
+    <Button
+        android:id="@+id/Camera"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/Camera" />
+
+    <Button
+        android:id="@+id/Gallery"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:text="@string/Gallery" />
+
+    <EditText
+        android:id="@+id/booksaddress"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="BooksInfo + Address:"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/booksmobile"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:hint="Moblie No. :"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/bookssubmit"
+        android:layout_width="137dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="120dp"
+        android:text="@string/bookssubmit" />
+
+
+</LinearLayout>
